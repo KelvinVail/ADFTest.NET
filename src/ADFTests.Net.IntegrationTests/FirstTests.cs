@@ -8,7 +8,7 @@ namespace ADFTests.Net.IntegrationTests
         [Fact]
         public async Task PipelineShouldSucceed()
         {
-            var helper = new PLStageAuthorsHelper();
+            var helper = new StageAuthorsHelper();
             await helper.RunPipeline();
 
             Assert.Equal("Succeeded", helper.PipelineOutcome);
