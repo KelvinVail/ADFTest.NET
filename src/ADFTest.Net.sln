@@ -16,15 +16,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFTest.Net.Source.Persistence", "ADFTest.Net.Source.Persistence\ADFTest.Net.Source.Persistence.csproj", "{CEF7BB8D-6360-4060-BE5A-77BC6789FD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADFTest.Net.Source.Persistence", "ADFTest.Net.Source.Persistence\ADFTest.Net.Source.Persistence.csproj", "{CEF7BB8D-6360-4060-BE5A-77BC6789FD50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFTest.Net.ConsoleApp", "ADFTest.Net.ConsoleApp\ADFTest.Net.ConsoleApp.csproj", "{F2FEA68D-3A8E-41BB-89F9-20E674060AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADFTest.Net.ConsoleApp", "ADFTest.Net.ConsoleApp\ADFTest.Net.ConsoleApp.csproj", "{F2FEA68D-3A8E-41BB-89F9-20E674060AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFTest.Net.Destination.Persistence", "ADFTest.Net.Destination.Persistence\ADFTest.Net.Destination.Persistence.csproj", "{44B54A6A-846F-4CAF-908F-E34DC2C72AF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADFTest.Net.Destination.Persistence", "ADFTest.Net.Destination.Persistence\ADFTest.Net.Destination.Persistence.csproj", "{44B54A6A-846F-4CAF-908F-E34DC2C72AF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9EE8E040-B1A6-48E1-A2DD-53FB2BDBB681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFTests.Net.IntegrationTests", "ADFTests.Net.IntegrationTests\ADFTests.Net.IntegrationTests.csproj", "{1239874C-506E-448D-A2C6-FE1F2042ABEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADFTests.Net.IntegrationTests", "ADFTests.Net.IntegrationTests\ADFTests.Net.IntegrationTests.csproj", "{1239874C-506E-448D-A2C6-FE1F2042ABEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFTest.Net.Application", "ADFTest.Net.Application\ADFTest.Net.Application.csproj", "{324F5AB7-C82A-4914-93CA-59AFEBC28471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFTest.Net.Services", "ADFTest.Net.Services\ADFTest.Net.Services.csproj", "{8EE8F686-4DDF-4F6F-AB2F-44E96B6084C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADFTest.Net.Services.Tests", "ADFTest.NetServices.Tests\ADFTest.Net.Services.Tests.csproj", "{01139C33-54A1-4228-B4E1-B4E4D193E313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +58,18 @@ Global
 		{1239874C-506E-448D-A2C6-FE1F2042ABEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1239874C-506E-448D-A2C6-FE1F2042ABEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1239874C-506E-448D-A2C6-FE1F2042ABEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324F5AB7-C82A-4914-93CA-59AFEBC28471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324F5AB7-C82A-4914-93CA-59AFEBC28471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324F5AB7-C82A-4914-93CA-59AFEBC28471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324F5AB7-C82A-4914-93CA-59AFEBC28471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE8F686-4DDF-4F6F-AB2F-44E96B6084C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE8F686-4DDF-4F6F-AB2F-44E96B6084C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE8F686-4DDF-4F6F-AB2F-44E96B6084C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE8F686-4DDF-4F6F-AB2F-44E96B6084C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01139C33-54A1-4228-B4E1-B4E4D193E313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01139C33-54A1-4228-B4E1-B4E4D193E313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01139C33-54A1-4228-B4E1-B4E4D193E313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01139C33-54A1-4228-B4E1-B4E4D193E313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +80,9 @@ Global
 		{F2FEA68D-3A8E-41BB-89F9-20E674060AF8} = {3F31A277-6235-4B1B-8F01-3B7B747D0F2C}
 		{44B54A6A-846F-4CAF-908F-E34DC2C72AF9} = {B0F9BF2D-8E2E-4904-8F20-A6C9BAEF4EE8}
 		{1239874C-506E-448D-A2C6-FE1F2042ABEA} = {9EE8E040-B1A6-48E1-A2DD-53FB2BDBB681}
+		{324F5AB7-C82A-4914-93CA-59AFEBC28471} = {C91E34E3-A075-49F2-91B7-1FB6CA0B9B3D}
+		{8EE8F686-4DDF-4F6F-AB2F-44E96B6084C3} = {B0F9BF2D-8E2E-4904-8F20-A6C9BAEF4EE8}
+		{01139C33-54A1-4228-B4E1-B4E4D193E313} = {B0F9BF2D-8E2E-4904-8F20-A6C9BAEF4EE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC04C28A-4D40-4A16-B40A-35E4AC988927}
